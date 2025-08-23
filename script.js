@@ -18,7 +18,8 @@ addBtn.addEventListener("click", () => {
   }
 
   let delbtn = document.createElement("img");
-  delbtn.src = "delete-icon.svg";
+  delbtn.src = "images/delete-icon.svg";
+  // delbtn.src = "delete-icon.svg";
   delbtn.alt = "Delete";
   delbtn.classList.add("delete-icon");
   li.appendChild(delbtn);

@@ -95,7 +95,8 @@ ul li::before{
       height: 28px;
       width: 28px;
       border-radius: 50%;
-      background-image: url(circle-regular.svg);
+      background-image: url(images/circle-regular.svg);
+      /* background-image: url(circle-regular.svg); */
       background-size: cover;
       background-position: center;
       top: 9px;
@@ -118,7 +119,8 @@ ul li.checked{
       margin-right: 10px;
 }
 ul li.checked::before{
-      background-image: url(circle-check-solid.svg);
+      background-image: url(images/circle-check-solid.svg);
+      /* background-image: url(circle-check-solid.svg); */
 }
 
 
@@ -159,8 +161,6 @@ ul li.checked::before{
       max-height: 280px;
       padding-right: 8px;
       }
-      
-      
-      
+   
             
 }
